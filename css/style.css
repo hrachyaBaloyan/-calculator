@@ -1,0 +1,87 @@
+.all{
+    background-image: linear-gradient(to right,#97b6b9,#88bfa6,#EBD8EB,#d6ebf2);
+    width: 450px;
+    height: 600px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.input-value{
+    width: 100px;
+    height: 60px;
+    margin-left:50px;
+    outline: hidden;
+    border-radius: 10px;
+    border: 0;
+    font-size: 30px;
+  
+
+}
+.inputs{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -64px;
+   
+}
+.buttons{
+   margin-left: 30px;
+   margin-top:30px
+}
+button{
+    width: 60px;
+    height: 80px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    border:0;
+}
+button:hover{
+  background-color: gray;
+  opacity: 0.6;
+  color:white
+}
+#plus{
+   font-size:40px;
+   position: relative;
+   left:23px;
+  visibility: visible;
+}
+#ten{
+    width: 135px;
+}
+.eq{
+    font-size:50px;
+}
+.number{
+    font-size:50px;
+    position: relative;
+    left:24px;
+}
+#number{
+    width:10px;
+ 
+    font-size:40px;
+   
+}
+#c{
+     position: relative;
+     top:-366px;
+     left:312px;
+     width: 100px;
+
+}
+.cv{
+    position: relative;
+    top:-360px;
+    left:312px;
+    width: 100px;
+}
+
+
